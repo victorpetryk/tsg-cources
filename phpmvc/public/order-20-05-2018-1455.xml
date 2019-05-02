@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <customer>Гість #25</customer>
+  <products>
+    <product>
+      <sku>t00004</sku>
+      <name>Телефон 4</name>
+      <price>4800.00</price>
+      <qty>1.000</qty>
+      <sum>4800</sum>
+    </product>
+    <product>
+      <sku>t00008</sku>
+      <name>Телефон 8</name>
+      <price>3480.00</price>
+      <qty>1.000</qty>
+      <sum>3480</sum>
+    </product>
+  </products>
+  <total>8280</total>
+</order>

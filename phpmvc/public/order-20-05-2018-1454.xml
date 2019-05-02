@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <customer>Петрик Віктор</customer>
+  <products>
+    <product>
+      <sku>t00004</sku>
+      <name>Телефон 4</name>
+      <price>4800.00</price>
+      <qty>1.000</qty>
+      <sum>4800</sum>
+    </product>
+    <product>
+      <sku>t00006</sku>
+      <name>Телефон 6</name>
+      <price>9200.00</price>
+      <qty>1.000</qty>
+      <sum>9200</sum>
+    </product>
+    <product>
+      <sku>t00019</sku>
+      <name>Телефон 19</name>
+      <price>33.00</price>
+      <qty>1.000</qty>
+      <sum>33</sum>
+    </product>
+    <product>
+      <sku>t00020</sku>
+      <name>Телефон 20</name>
+      <price>220.00</price>
+      <qty>1.000</qty>
+      <sum>220</sum>
+    </product>
+  </products>
+  <total>14253</total>
+</order>

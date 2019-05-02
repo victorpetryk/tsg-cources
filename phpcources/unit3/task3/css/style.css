@@ -1,0 +1,110 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 128px;
+    min-height: 100%;
+    background-color: #5c94fc;
+}
+
+.form {
+    z-index: 4;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+input[type='text'] {
+    margin: 10px 0;
+}
+
+.notification {
+    color: grey;
+}
+
+.cloud1 {
+    z-index: 2;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 128px;
+    height: 48px;
+    background: url('../images/cloud1.png') no-repeat;
+}
+
+.cloud2 {
+    z-index: 2;
+    position: absolute;
+    top: 75px;
+    left: 400px;
+    width: 96px;
+    height: 48px;
+    background: url('../images/cloud2.png') no-repeat;
+}
+
+.cloud3 {
+    z-index: 2;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    width: 64px;
+    height: 48px;
+    background: url('../images/cloud3.png') no-repeat;
+}
+
+.pyramid {
+    z-index: 3;
+    position: absolute;
+    left: 30%;
+    bottom: 128px;
+}
+
+.pyramid-row {
+    margin-left: auto;
+    margin-right: 0;
+    height: 32px;
+    background: url('../images/pyramid-block.png') repeat;
+}
+
+.grass1 {
+    z-index: 2;
+    position: absolute;
+    right: 100px;
+    bottom: 128px;
+    width: 96px;
+    height: 38px;
+    background: url('../images/grass1.png') no-repeat;
+}
+
+.grass2 {
+    z-index: 2;
+    position: absolute;
+    left: 150px;
+    bottom: 128px;
+    width: 64px;
+    height: 32px;
+    background: url('../images/grass2.png') no-repeat;
+}
+
+.earth {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 128px;
+    background: url('../images/earth-block.png') repeat;
+}
